@@ -41,3 +41,16 @@ object manzana {
 	}
 	
 }
+
+object roque {
+	var aveDeRoque = pepita
+	
+	method alimentar(alimento){
+		aveDeRoque.comer(alimento)
+	}
+	
+	method actualizarAve(ave){
+		aveDeRoque = ave
+	}
+	
+}
